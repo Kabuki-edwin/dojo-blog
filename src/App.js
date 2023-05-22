@@ -11,10 +11,7 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <div className="content">
-        <h1>{ tittle }</h1>
-        <p>Liked { likes } times</p>
-
-        <a href={link}>Google site</a>
+        <Home></Home>
       </div>
     </div>
   );
